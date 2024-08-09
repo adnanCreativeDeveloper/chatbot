@@ -1,0 +1,130 @@
+  .scrollbar-custom::-webkit-scrollbar {
+      background-color: #424242;
+      /* padding: 0 5px; */
+  }
+
+  .scrollbar-custom::-webkit-scrollbar-thumb {
+      background-color: #7B7B7B;
+  }
+
+  .writing-animation-dot {
+      animation: blink 1s infinite;
+      scale: 1;
+  }
+
+  @keyframes blink {
+      50% {
+          scale: 1.4;
+      }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .parent {
+      display: grid;
+      grid-template-columns: repeat(6, 1fr);
+      grid-template-rows: repeat(6, 1fr);
+      grid-column-gap: 10px;
+      grid-row-gap: 10px;
+  }
+
+  .div1 {
+      background: pink;
+      grid-area: 1 / 1 / 2 / 2;
+  }
+
+  .div2 {
+      background: green;
+      grid-area: 1 / 2 / 2 / 5;
+  }
+
+  .div3 {
+      background: red;
+      grid-area: 1 / 5 / 4 / 6;
+  }
+
+  .div4 {
+      background: blue;
+      grid-area: 3 / 6 / 6 / 7;
+  }
+
+  .div5 {
+      background: blueviolet;
+      grid-area: 1 / 6 / 2 / 7;
+  }
+
+  .div6 {
+      background: gray;
+      grid-area: 2 / 6 / 3 / 7;
+  }
+
+
+  .div7 {
+      background: khaki;
+      grid-area: 6 / 5 / 7 / 7;
+  }
+
+  .div8 {
+      background: skyblue;
+      grid-area: 3 / 1 / 4 / 3;
+  }
+
+  .div9 {
+      background: yellow;
+      grid-area: 4 / 2 / 5 / 5;
+  }
+
+  .div10 {
+      background: yellowgreen;
+      grid-area: 2 / 1 / 3 / 5;
+  }
+
+  .div11 {
+      background: purple;
+      grid-area: 3 / 3 / 4 / 5;
+  }
+
+  .div12 {
+      background: palegreen;
+      grid-area: 5 / 3 / 7 / 4;
+  }
+
+  .div13 {
+      background: tan;
+      grid-area: 5 / 1 / 6 / 3;
+  }
+
+  .div14 {
+      background: salmon;
+      grid-area: 6 / 1 / 7 / 3;
+  }
+
+  .div15 {
+      background: saddlebrown;
+      grid-area: 4 / 1 / 5 / 2;
+  }
+
+  .div16 {
+      background: chocolate;
+      grid-area: 5 / 4 / 6 / 6;
+  }
+
+  .div17 {
+      background: darkslategrey;
+      grid-area: 4 / 5 / 5 / 6;
+  }
+
+  .div18 {
+      background: darksalmon;
+      grid-area: 6 / 4 / 7 / 5;
+  }
